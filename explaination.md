@@ -1,4 +1,4 @@
-###Steps
+### Steps
 ----------
 
 1. Install React and ReactDOM:
