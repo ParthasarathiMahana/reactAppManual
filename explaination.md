@@ -12,7 +12,6 @@
     - npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader
     - webpack.config.js ---> const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -45,13 +44,18 @@ module.exports = {
     port: 3000,
   },
 };
+
 4. index.html in public folder:
     - HTML Code
+
 5. Create Your React App:
     - mkdir src
       touch src/index.js
+
 6. Create a react component APP.js
+
 7. Mount app in 'src/index.js'
+
 8. Add script to 'package.json'
     - "start": "webpack serve --mode development --open",
     - "build": "webpack --mode production"
